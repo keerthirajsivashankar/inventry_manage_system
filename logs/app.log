@@ -1,0 +1,16 @@
+2026-03-19 14:56:09,205 | INFO | fastapi_app | student_repository.py:11 | Creating student: string
+2026-03-19 14:56:13,130 | INFO | fastapi_app | student_repository.py:11 | Creating student: string
+2026-03-19 14:56:17,162 | INFO | fastapi_app | student_repository.py:11 | Creating student: string
+2026-03-19 14:56:27,520 | INFO | fastapi_app | student_repository.py:18 | Fetching all students
+2026-03-19 14:56:41,814 | INFO | fastapi_app | student_repository.py:23 | Fetching student with ID: 2
+2026-03-19 14:56:54,982 | INFO | fastapi_app | student_repository.py:28 | Deleting student with ID: 4
+2026-03-19 15:51:56,522 | INFO | fastapi_app | inventry_repository.py:11 | Creating item: apple
+2026-03-19 15:52:06,388 | INFO | fastapi_app | inventry_repository.py:18 | Fetching all Items
+2026-03-19 15:52:23,660 | INFO | fastapi_app | inventry_repository.py:23 | Fetching item with ID: 1
+2026-03-19 15:52:46,738 | INFO | fastapi_app | inventry_repository.py:37 | Updating item with ID: 1
+2026-03-19 15:52:54,444 | INFO | fastapi_app | inventry_repository.py:18 | Fetching all Items
+2026-03-19 16:02:44,922 | INFO | fastapi_app | inventry_repository.py:18 | Fetching all Items
+2026-03-19 16:07:41,967 | INFO | fastapi_app | inventry_repository.py:11 | Creating item: string
+2026-03-19 16:53:21,991 | INFO | fastapi_app | inventry_repository.py:18 | Fetching all Items
+2026-03-19 17:23:01,312 | INFO | fastapi_app | inventry_repository.py:19 | Fetching total item value
+2026-03-19 17:24:35,058 | INFO | fastapi_app | inventry_repository.py:19 | Fetching total item value
