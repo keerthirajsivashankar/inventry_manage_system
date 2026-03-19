@@ -17,11 +17,8 @@ class InventryRepository:
     @staticmethod
     def get_total_value(db: Session):
         logger.info("Fetching total item value")
-
-        items = db.query(Inventry.name, Inventry.price).all()
-
-        total_value = sum(price or 0 for _, price in items)
-
+        items = db.query(Inventry.qty, Inventry.price).all()
+        total_value = sum((quantity or 0) * (price or 0) for quantity, price in items)
         return total_value
     
     @staticmethod
