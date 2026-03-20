@@ -1,7 +1,7 @@
 from fastapi import APIRouter, Depends
 from sqlalchemy.orm import Session
 from app.db.database import get_db
-from app.schemas.inventry_schema import ItemCreate, ItemResponse, ItemUpdate
+from app.schemas.inventry_schema import ItemCreate, ItemResponse, ItemUpdate , TotalValueResponse
 from app.services.inventry_service import InventryService
 
 router = APIRouter(prefix="/inventry", tags=["Inventry"])
@@ -11,7 +11,7 @@ router = APIRouter(prefix="/inventry", tags=["Inventry"])
 def get_items(db: Session = Depends(get_db)):
     return InventryService.get_items(db)
 
-@router.get("/item/Value")
+@router.get("/item/Value" , response_model=TotalValueResponse)
 def get_all_values(db: Session = Depends(get_db)):
     return InventryService.get_total_value(db)
 

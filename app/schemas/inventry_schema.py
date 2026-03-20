@@ -20,6 +20,7 @@ class ItemUpdate(BaseModel):
     price: Optional[int] = Field(None, gt=0)
     qty: Optional[int] = Field(None, ge=0)
     description: Optional[str] = Field(None, max_length=255)
-
     model_config = ConfigDict(from_attributes=True)
 
+class TotalValueResponse(BaseModel):
+    total_value: int
