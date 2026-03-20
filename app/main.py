@@ -2,7 +2,7 @@ from fastapi import FastAPI, Request
 from app.core.config import settings
 from app.core.logger import setup_logger
 from app.db.database import Base, engine
-from app.api.routes.inventry_routes import router as student_router
+from app.api.routes.inventry_routes import router as item_router
 from app.utils.exceptions import ItemNotFoundException
 from app.utils.responses import error_response
 from fastapi.responses import JSONResponse
@@ -16,7 +16,7 @@ app = FastAPI(title=settings.app_name)
 Base.metadata.create_all(bind=engine)
 
 # Include routes
-app.include_router(student_router)
+app.include_router(item_router)
 
 @app.exception_handler(ItemNotFoundException)
 async def not_found_exception_handler(request: Request, exc: ItemNotFoundException):

@@ -7,3 +7,7 @@
 2026-03-20 10:43:48,446 | INFO | fastapi_app | inventry_repository.py:35 | Updating item with ID: 4
 2026-03-20 10:44:32,225 | INFO | fastapi_app | inventry_repository.py:28 | Creating item: laptop
 2026-03-20 11:01:32,418 | INFO | fastapi_app | inventry_repository.py:14 | Fetching item with ID: 5
+2026-03-20 12:18:18,856 | INFO | fastapi_app | inventry_repository.py:35 | Updating item with ID: 1
+2026-03-20 12:20:11,490 | INFO | fastapi_app | inventry_repository.py:35 | Updating item with ID: 1
+2026-03-20 14:02:54,442 | INFO | fastapi_app | inventry_repository.py:21 | Fetching total item value: 74004600
+2026-03-20 14:03:41,451 | INFO | fastapi_app | inventry_repository.py:21 | Fetching total item value: [(200, 21), (20, 20), (500, 100000), (200, 120000)]
