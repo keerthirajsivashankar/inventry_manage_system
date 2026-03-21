@@ -6,11 +6,23 @@ from app.api.routes.inventry_routes import router as item_router
 from app.utils.exceptions import ItemNotFoundException
 from app.utils.responses import error_response
 from fastapi.responses import JSONResponse
+from fastapi.middleware.cors import CORSMiddleware
+
+
 
 # Setup
 setup_logger()
 
 app = FastAPI(title=settings.app_name)
+
+# CORS Middleware
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["http://localhost:5173"],  # React dev server
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
 
 # Create DB tables
 Base.metadata.create_all(bind=engine)

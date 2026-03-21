@@ -1,13 +1,27 @@
-2026-03-20 10:09:18,190 | INFO | fastapi_app | inventry_repository.py:19 | Fetching total item value
-2026-03-20 10:13:51,902 | INFO | fastapi_app | inventry_repository.py:19 | Fetching total item value
-2026-03-20 10:16:16,890 | INFO | fastapi_app | inventry_repository.py:19 | Fetching total item value
-2026-03-20 10:40:51,046 | INFO | fastapi_app | inventry_repository.py:9 | Fetching all Items
-2026-03-20 10:42:15,172 | INFO | fastapi_app | inventry_repository.py:28 | Creating item: Phone
-2026-03-20 10:42:29,918 | INFO | fastapi_app | inventry_repository.py:14 | Fetching item with ID: 4
-2026-03-20 10:43:48,446 | INFO | fastapi_app | inventry_repository.py:35 | Updating item with ID: 4
-2026-03-20 10:44:32,225 | INFO | fastapi_app | inventry_repository.py:28 | Creating item: laptop
-2026-03-20 11:01:32,418 | INFO | fastapi_app | inventry_repository.py:14 | Fetching item with ID: 5
-2026-03-20 12:18:18,856 | INFO | fastapi_app | inventry_repository.py:35 | Updating item with ID: 1
-2026-03-20 12:20:11,490 | INFO | fastapi_app | inventry_repository.py:35 | Updating item with ID: 1
-2026-03-20 14:02:54,442 | INFO | fastapi_app | inventry_repository.py:21 | Fetching total item value: 74004600
-2026-03-20 14:03:41,451 | INFO | fastapi_app | inventry_repository.py:21 | Fetching total item value: [(200, 21), (20, 20), (500, 100000), (200, 120000)]
+2026-03-21 17:42:52,967 | INFO | fastapi_app | inventry_repository.py:9 | Fetching all Items
+2026-03-21 17:42:52,996 | INFO | fastapi_app | inventry_repository.py:9 | Fetching all Items
+2026-03-21 17:43:10,275 | INFO | fastapi_app | inventry_repository.py:9 | Fetching all Items
+2026-03-21 17:43:10,280 | INFO | fastapi_app | inventry_repository.py:9 | Fetching all Items
+2026-03-21 17:44:40,762 | INFO | fastapi_app | inventry_repository.py:9 | Fetching all Items
+2026-03-21 17:44:40,767 | INFO | fastapi_app | inventry_repository.py:9 | Fetching all Items
+2026-03-21 18:07:31,325 | INFO | fastapi_app | inventry_repository.py:9 | Fetching all Items
+2026-03-21 18:07:31,331 | INFO | fastapi_app | inventry_repository.py:9 | Fetching all Items
+2026-03-21 18:08:10,418 | INFO | fastapi_app | inventry_repository.py:9 | Fetching all Items
+2026-03-21 18:08:10,424 | INFO | fastapi_app | inventry_repository.py:9 | Fetching all Items
+2026-03-21 18:09:02,619 | INFO | fastapi_app | inventry_repository.py:9 | Fetching all Items
+2026-03-21 18:09:02,623 | INFO | fastapi_app | inventry_repository.py:9 | Fetching all Items
+2026-03-21 18:11:02,458 | INFO | fastapi_app | inventry_repository.py:9 | Fetching all Items
+2026-03-21 18:11:02,462 | INFO | fastapi_app | inventry_repository.py:9 | Fetching all Items
+2026-03-21 18:12:33,367 | INFO | fastapi_app | inventry_repository.py:9 | Fetching all Items
+2026-03-21 18:12:33,373 | INFO | fastapi_app | inventry_repository.py:9 | Fetching all Items
+2026-03-21 18:18:32,258 | INFO | fastapi_app | inventry_repository.py:28 | Creating item: dont
+2026-03-21 18:19:14,133 | INFO | fastapi_app | inventry_repository.py:28 | Creating item: super 
+2026-03-21 18:26:05,764 | INFO | fastapi_app | inventry_repository.py:35 | Updating item with ID: 4
+2026-03-21 18:30:54,793 | INFO | fastapi_app | inventry_repository.py:14 | Fetching item with ID: 1
+2026-03-21 18:31:07,636 | INFO | fastapi_app | inventry_repository.py:9 | Fetching all Items
+2026-03-21 18:32:40,266 | INFO | fastapi_app | inventry_repository.py:9 | Fetching all Items
+2026-03-21 18:43:10,621 | INFO | fastapi_app | inventry_repository.py:14 | Fetching item with ID: 1
+2026-03-21 18:43:26,879 | INFO | fastapi_app | inventry_repository.py:48 | Deleting item with ID: 1
+2026-03-21 18:43:33,152 | INFO | fastapi_app | inventry_repository.py:14 | Fetching item with ID: 2
+2026-03-21 18:46:28,567 | INFO | fastapi_app | inventry_repository.py:9 | Fetching all Items
+2026-03-21 18:46:28,572 | INFO | fastapi_app | inventry_repository.py:9 | Fetching all Items
